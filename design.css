@@ -1,0 +1,137 @@
+header, body, footer{
+    text-align: center;
+    background-color:lightcyan;
+    color:black;
+}
+.hr{
+    color: blue;
+}
+
+body{
+    margin: auto;
+}
+p{
+    padding: 5px;
+    font-size: 18px;
+}
+h2, h3, h4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+header img{
+    height: 650px;
+}
+
+div.horizontalMenu{
+    background-color: lightslategrey;
+    overflow: auto;
+    white-space: nowrap;
+}
+div.horizontalMenu a{
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 16px;
+    font-size: 18px;
+}
+div.horizontalMenu a:hover{
+    background-color: magenta;
+}
+
+.navTop {
+    background-color: blue;
+    overflow: hidden;
+}
+.navTop a{
+    float: left;
+    color: whitesmoke;
+    text-align: center;
+    padding: 15px 17px;
+    font-size: 16px;
+}
+
+.navTop a:hover{
+    background-color: tomato;
+    color: black;
+}
+
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+hr.horLine{
+    border: 2px solid black;
+}
+#qw{
+    background-color: red;
+}
+#q{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 82px;
+}
+
+.form-inline{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+.form-inline label{
+    margin: auto;
+}
+.form-inline input{
+    vertical-align: middle;
+    margin: 5px 10px 5px 0px;
+    padding: 10px;
+    background-color: red;
+    border: 2px solid black;
+}
+.form-inline button{
+    padding: 10px 20px;
+    background-color: white;
+    border: 2px solid red;
+    color: white;
+}
+.form-inline button:hover{
+    background-color: purple;
+
+}
+@media screen and (min-width:850px) and (max-width:850px){
+    a:hover{
+        background-color: black;
+        color: white;
+    }
+    .navHeader{
+        position: relative;
+        display: grid;
+        align-items: center;
+        grid-template-rows: 1fr;
+        grid-gap: 20px;
+        z-index: 4;
+    }
+    nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    nav a{
+        width: 100px;
+        background-color: white;
+        border-radius: 20px;
+        padding: 10px;
+        text-align: center;
+    }
+}
+
+
+
+
+
